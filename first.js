@@ -1,14 +1,22 @@
 
        // Q1 ---->
 
-// var num1 = +prompt("Enter the first number:");
-// var num2 = +prompt("Enter the second number:");
-
-// console.log("the sum of the all digits is ="+ (num1 + num2));
+// var num1 = +prompt("Enter the number:");
+// let sum = 0;
+// for(let i=num1; i>=1; i--){
+//     sum += i;
+// }
+// console.log(sum);
 
 //     //    Q2------>
 
-// let sum = prompt("Enter the number");
+// let num1 = +prompt("Enter the first number");
+// let num2 = +prompt("Enter the second number");
+// let sumRan = 0;
+// for(let i = num1; i<= num2; i++){
+//     sumRan +=1;
+// }
+// console.log(sumRan);
 
 
 
@@ -46,5 +54,10 @@
 
     // Q5======>
 
-    let num1 = prompt("enter the first");
-    let num2 = prompt("entet the ")
+    let str = prompt("Enter the number");
+    let lastChar = str.charAt(str.length -1);
+    let firstChar = str.charAt(0);
+
+    let between = str.substring(1, str.length - 1);
+    let finalLine = lastChar + between + firstChar;
+    console.log(finalLine);
